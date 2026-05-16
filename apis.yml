@@ -6,12 +6,199 @@ image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Data Governance
   - Data Management
+  - Data Catalog
+  - Data Quality
+  - AI Governance
+  - Data Lineage
   - Enterprise Software
-description: 'A leading data intelligence company providing a cloud-based platform for data governance, cataloging, and quality management. Helps enterprises discover, understand, and trust their data assets through automated lineage tracking, policy management, and collaborative stewardship across the organization.'
+description: >-
+  Collibra is a data intelligence company providing a cloud-based platform
+  for data governance, cataloging, quality, lineage, and AI governance. The
+  Collibra Data Intelligence Platform helps enterprises discover, understand,
+  govern, and trust their data assets through automated lineage tracking,
+  policy management, data observability, and collaborative stewardship. The
+  Collibra developer ecosystem includes REST APIs, GraphQL Knowledge Graph
+  API, workflow automation, and a broad library of source connectors.
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: collibra:collibra-core-rest-api
+    name: Collibra Core REST API
+    tags:
+      - REST
+      - Platform
+      - Data Catalog
+      - Metadata
+    humanURL: https://developer.collibra.com/
+    properties:
+      - url: https://developer.collibra.com/
+        type: Documentation
+      - url: https://developer.collibra.com/rest/
+        type: Reference
+    description: >-
+      The Collibra Core REST API exposes the full Collibra Platform for
+      programmatic management of communities, domains, assets, relations,
+      attributes, tags, comments, workflows, and policies. The API uses
+      JWT authentication and supports filtering, sorting, and pagination
+      for enterprise integration scenarios.
+
+  - aid: collibra:collibra-knowledge-graph-graphql-api
+    name: Collibra Knowledge Graph GraphQL API
+    tags:
+      - GraphQL
+      - Knowledge Graph
+      - Metadata
+    humanURL: https://developer.collibra.com/
+    properties:
+      - url: https://developer.collibra.com/
+        type: Documentation
+    description: >-
+      The Knowledge Graph GraphQL API enables retrieval of Collibra
+      assets, relations, communities, domains, and complex multi-hop
+      relations in a single query. Designed for analytical and AI
+      pipeline use cases that need traversal across the governed
+      metadata graph.
+
+  - aid: collibra:collibra-data-quality-observability-api
+    name: Collibra Data Quality and Observability API
+    tags:
+      - Data Quality
+      - Observability
+      - REST
+    humanURL: https://developer.collibra.com/
+    properties:
+      - url: https://developer.collibra.com/
+        type: Documentation
+    description: >-
+      Collibra Data Quality and Observability APIs manage quality rules,
+      monitoring jobs, dataset profiles, anomalies, and remediation
+      workflows. Supports natural-language and code-defined quality
+      checks across cloud and on-premise data warehouses.
+
+  - aid: collibra:collibra-data-lineage-api
+    name: Collibra Data Lineage API
+    tags:
+      - Lineage
+      - Data Flow
+      - REST
+    humanURL: https://developer.collibra.com/
+    properties:
+      - url: https://developer.collibra.com/
+        type: Documentation
+    description: >-
+      The Data Lineage API exposes end-to-end column-level and table-level
+      data lineage across SQL warehouses, ETL pipelines, BI tools, and
+      streaming systems for impact analysis and regulatory documentation.
+
+  - aid: collibra:collibra-workflow-api
+    name: Collibra Workflow API
+    tags:
+      - Workflow
+      - BPMN
+      - Stewardship
+    humanURL: https://developer.collibra.com/
+    properties:
+      - url: https://developer.collibra.com/
+        type: Documentation
+    description: >-
+      The Workflow API manages BPMN-based governance workflows including
+      data steward review, access request, issue resolution, and asset
+      promotion. Supports deployment, instance management, and event-
+      driven triggers for stewardship automation.
+
+  - aid: collibra:collibra-ai-command-center-api
+    name: Collibra AI Command Center
+    tags:
+      - AI Governance
+      - LLM
+      - Risk Management
+    humanURL: https://www.collibra.com/ai-governance
+    properties:
+      - url: https://www.collibra.com/ai-governance
+        type: Documentation
+    description: >-
+      The Collibra AI Command Center provides a unified control plane
+      for governing enterprise AI systems with continuous visibility,
+      trust signals, automated traceability, and risk-based oversight
+      of models, agents, and AI-using applications.
+
+  - aid: collibra:collibra-integration-connectors
+    name: Collibra Integration Connectors
+    tags:
+      - Connectors
+      - Integration
+      - Source Ingestion
+    humanURL: https://www.collibra.com/integrations
+    properties:
+      - url: https://www.collibra.com/integrations
+        type: Documentation
+    description: >-
+      Collibra ships a broad library of source connectors for
+      ingesting metadata from data warehouses, BI tools, cloud storage,
+      streaming systems, and AI platforms including Snowflake,
+      Databricks, BigQuery, Redshift, Tableau, Power BI, and more.
 common:
   - type: Website
     url: https://www.collibra.com/
+  - type: Portal
+    url: https://developer.collibra.com/
+  - type: Documentation
+    url: https://www.collibra.com/documentation
+  - type: Community
+    url: https://community.collibra.com/
+  - type: Pricing
+    url: https://www.collibra.com/pricing
+  - type: Features
+    data:
+      - name: Data Catalog
+        description: Discover, document, and govern enterprise data assets across cloud and on-prem.
+      - name: Data Governance
+        description: Define policies, roles, and stewardship for data assets and metrics.
+      - name: Data Quality and Observability
+        description: Automate data quality monitoring, anomaly detection, and remediation.
+      - name: Data Lineage
+        description: Column-level and table-level lineage across SQL, ETL, and BI systems.
+      - name: AI Governance
+        description: Govern AI models, agents, and AI-using applications with risk-based oversight.
+      - name: Workflow Automation
+        description: BPMN-based stewardship workflows for review, access, and remediation.
+      - name: REST and GraphQL APIs
+        description: Programmatic access to the full Collibra metadata graph.
+      - name: Connector Library
+        description: Out-of-the-box ingestion for major data warehouses, BI tools, and cloud platforms.
+  - type: UseCases
+    data:
+      - name: Enterprise Data Catalog
+        description: Build a single catalog of governed data assets across business domains.
+      - name: Regulatory Compliance
+        description: Document and demonstrate data lineage and controls for GDPR, BCBS 239, HIPAA, and other regulations.
+      - name: AI Risk Management
+        description: Govern enterprise AI systems with continuous monitoring and audit trails.
+      - name: Data Mesh Enablement
+        description: Support federated domain ownership with central governance.
+      - name: Data Quality SLA Management
+        description: Monitor and remediate data quality across pipelines and warehouses.
+      - name: Self-Service Data Discovery
+        description: Enable analysts and data scientists to find trusted, governed data.
+  - type: Integrations
+    data:
+      - name: Snowflake
+        description: Native metadata ingestion and lineage from Snowflake Data Cloud.
+      - name: Databricks
+        description: Integration with Databricks Lakehouse and Unity Catalog for metadata and lineage.
+      - name: Google BigQuery
+        description: Metadata ingestion and lineage from BigQuery.
+      - name: AWS Redshift
+        description: Connector for Redshift metadata and lineage.
+      - name: Tableau
+        description: BI lineage and metadata ingestion from Tableau dashboards and data sources.
+      - name: Power BI
+        description: BI lineage and metadata ingestion from Power BI workspaces.
+      - name: Deasy Labs
+        description: Unstructured-data context engine integration for AI-ready data pipelines.
+      - name: SAP
+        description: SAP enterprise application integration for metadata and master data governance.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
