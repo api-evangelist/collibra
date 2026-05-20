@@ -139,6 +139,10 @@ apis:
       streaming systems, and AI platforms including Snowflake,
       Databricks, BigQuery, Redshift, Tableau, Power BI, and more.
 common:
+  - type: GitHubOrganization
+    url: https://github.com/collibra
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/collibra
   - type: Website
     url: https://www.collibra.com/
   - type: Portal
