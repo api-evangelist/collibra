@@ -141,6 +141,10 @@ apis:
     streaming systems, and AI platforms including Snowflake,
     Databricks, BigQuery, Redshift, Tableau, Power BI, and more.
 common:
+- type: VulnerabilityDisclosure
+  url: security/collibra-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/collibra-domain-security.yml
 - type: GitHubOrganization
   url: https://github.com/collibra
 - type: LinkedIn
