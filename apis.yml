@@ -32,7 +32,7 @@ description: >-
   API, workflow automation, and a broad library of source connectors.
 created: '2026-05-05'
 modified: '2026-05-16'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
 - aid: collibra:collibra-core-rest-api
   name: Collibra Core REST API
