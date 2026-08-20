@@ -93,6 +93,10 @@ apis:
   name: Collibra Data Lineage API
   tags:
   - Lineage
+  - Dataflows
+  - REST
+  tags_raw:
+  - Lineage
   - Data Flow
   - REST
   humanURL: https://developer.collibra.com/
@@ -107,6 +111,10 @@ apis:
 - aid: collibra:collibra-workflow-api
   name: Collibra Workflow API
   tags:
+  - Workflows
+  - BPMN
+  - Stewardship
+  tags_raw:
   - Workflow
   - BPMN
   - Stewardship
