@@ -1,0 +1,31 @@
+# Front Door AI Index — collibra — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: collibra
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.collibra.com
+  final_host: www.collibra.com
+  ownership: own
+  owner: collibra
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 60
+  host_score: 60
+  density: 52.82
+  words: 1136
+  tiers:
+    agentic: 10
+    core: 49
+    model: 1
+  ambiguous: 21
+  top_terms:
+    AI: 49
+    agent: 20
+    AI agent: 7
+    agentic: 2
+    OpenAI: 1
+    intelligence: 1
+    prompts: 1
