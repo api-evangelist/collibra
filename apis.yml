@@ -45,7 +45,7 @@ description: >-
   Collibra developer ecosystem includes REST APIs, GraphQL Knowledge Graph
   API, workflow automation, and a broad library of source connectors.
 created: '2026-05-05'
-modified: '2026-05-16'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
 - aid: collibra:collibra-core-rest-api
@@ -174,6 +174,10 @@ apis:
     streaming systems, and AI platforms including Snowflake,
     Databricks, BigQuery, Redshift, Tableau, Power BI, and more.
 common:
+- url: https://www.collibra.com/blog
+  type: Blog
+- url: https://www.collibra.com/feeds/blog.xml
+  type: BlogRSS
 - type: VulnerabilityDisclosure
   url: security/collibra-vulnerability-disclosure.yml
 - type: DomainSecurity
