@@ -1,0 +1,21 @@
+{
+  "repo": "collibra",
+  "feeds": [
+    {
+      "source": "https://www.collibra.com/blog",
+      "feed_url": "https://www.collibra.com/feeds/blog.xml",
+      "title": "",
+      "saved": 4,
+      "method": "discovered"
+    },
+    {
+      "source": "https://www.collibra.com/feeds/blog.xml",
+      "feed_url": "https://www.collibra.com/feeds/blog.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    }
+  ],
+  "post_count": 4,
+  "fetched": "2026-10-10T13:15:00Z"
+}
