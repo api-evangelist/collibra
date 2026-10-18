@@ -90,7 +90,7 @@
     - connectors/applications/collibra
     vendor_link: https://www.collibra.com/
     builder: Fivetran
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
 - slug: collibra-microsoft-teams-own
   label: Microsoft Teams (own)
