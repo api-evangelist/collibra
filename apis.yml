@@ -106,7 +106,7 @@ apis:
 - aid: collibra:collibra-data-lineage-api
   name: Collibra Data Lineage API
   tags:
-  - Lineage
+  - Data Lineage
   - Dataflows
   - REST
   tags_raw:
