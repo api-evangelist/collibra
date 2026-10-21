@@ -205,3 +205,59 @@
     identity_note: wikidata P856 collibra.com for 'Collibra' (labelled identity step)
   status: not-a-workflow
   arazzo: null
+- slug: collibra-battery-ventures
+  label: Battery Ventures
+  partner: battery-ventures
+  partner_name: Battery Ventures
+  category: vc portfolio participation
+  type: register
+  channel: standard-directory
+  evidence: https://www.battery.com/company/collibra/
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Battery Ventures companies (battery.com/company/, the page's own admin-ajax list + company pages)
+    standard: null
+    spec_file: null
+    role: vc-portfolio-company
+    registered_name: Collibra
+    register_id: https://www.battery.com/company/collibra/
+    register_country: New York, New York
+    register_website: http://www.collibra.com
+    matched_domain: collibra.com
+    matched_by: domain
+    signal_note: 'participation only: the venture firm''s own published portfolio lists the company (investment);
+      an ownership and participation record, not conformance or certification'
+    detected_by: sweep-vc-portfolios.py
+    detected: '2026-10-21'
+    status: Active
+  status: not-a-workflow
+  arazzo: null
+- slug: collibra-index-ventures
+  label: Index Ventures
+  partner: index-ventures
+  partner_name: Index Ventures
+  category: vc portfolio participation
+  type: register
+  channel: standard-directory
+  evidence: https://www.indexventures.com/companies/collibra/
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Index Ventures companies (indexventures.com/companies/)
+    standard: null
+    spec_file: null
+    role: vc-portfolio-company
+    registered_name: Collibra
+    register_id: https://www.indexventures.com/companies/collibra/
+    register_country: europe
+    register_website: http://collibra.com
+    matched_domain: collibra.com
+    matched_by: domain
+    signal_note: 'participation only: the venture firm''s own published portfolio lists the company (investment);
+      an ownership and participation record, not conformance or certification'
+    detected_by: sweep-vc-portfolios.py
+    detected: '2026-10-21'
+    sector: data
+  status: not-a-workflow
+  arazzo: null
