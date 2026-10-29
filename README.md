@@ -1,4 +1,4 @@
-# Collibra (collibra)
+# Collibra
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,51 +64,100 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Collibra is a data intelligence company providing a cloud-based platform for data governance, cataloging, quality, lineage, and AI governance. The Collibra developer ecosystem includes REST APIs, GraphQL Knowledge Graph API, workflow automation, and a broad library of source connectors.
+Collibra is a data intelligence company providing a cloud-based platform for data governance, cataloging, quality, lineage, and AI governance. The Collibra Data Intelligence Platform helps enterprises discover, understand, govern, and trust their data assets through automated lineage tracking, policy management, data observability, and collaborative stewardship. The Collibra developer ecosystem includes REST APIs, GraphQL Knowledge Graph API, workflow automation, and a broad library of source connectors.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/collibra/refs/heads/main/apis.yml)
+**Areas:** Data Governance · Data Management · Data Catalog · Data Quality · AI Governance · Data Lineage · Enterprise Software
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Collibra on APIs.io
 
-## Tags:
+Everything profiled for Collibra is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/collibra/](https://apis.io/providers/collibra/)** — or go straight to one of the APIs or properties below.
 
- - Data Governance, Data Management, Data Catalog, Data Quality, AI Governance, Data Lineage, Enterprise Software
+### APIs (7)
 
-## Timestamps
+- [Collibra Core REST API](https://apis.io/apis/collibra/collibra-core-rest-api/) — The Collibra Core REST API exposes the full Collibra Platform for programmatic management of communities, domains, assets, relations, attributes, tags,…
+- [Collibra Knowledge Graph GraphQL API](https://apis.io/apis/collibra/collibra-knowledge-graph-graphql-api/) — The Knowledge Graph GraphQL API enables retrieval of Collibra assets, relations, communities, domains, and complex multi-hop relations in a single query.…
+- [Collibra Data Quality and Observability API](https://apis.io/apis/collibra/collibra-data-quality-observability-api/) — Collibra Data Quality and Observability APIs manage quality rules, monitoring jobs, dataset profiles, anomalies, and remediation workflows. Supports…
+- [Collibra Data Lineage API](https://apis.io/apis/collibra/collibra-data-lineage-api/) — The Data Lineage API exposes end-to-end column-level and table-level data lineage across SQL warehouses, ETL pipelines, BI tools, and streaming systems for…
+- [Collibra Workflow API](https://apis.io/apis/collibra/collibra-workflow-api/) — The Workflow API manages BPMN-based governance workflows including data steward review, access request, issue resolution, and asset promotion. Supports…
+- [Collibra AI Command Center](https://apis.io/apis/collibra/collibra-ai-command-center-api/) — The Collibra AI Command Center provides a unified control plane for governing enterprise AI systems with continuous visibility, trust signals, automated…
+- [Collibra Integration Connectors](https://apis.io/apis/collibra/collibra-integration-connectors/) — Collibra ships a broad library of source connectors for ingesting metadata from data warehouses, BI tools, cloud storage, streaming systems, and AI…
 
-- **Created:** 2026-05-05
-- **Modified:** 2026-05-16
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Collibra Core REST API
-Programmatic management of communities, domains, assets, relations, attributes, tags, comments, workflows, and policies.
+#### GraphQL (1)
 
-### Collibra Knowledge Graph GraphQL API
-GraphQL API for retrieving Collibra assets, relations, communities, and multi-hop relations.
+GraphQL schemas.
 
-### Collibra Data Quality and Observability API
-Manage quality rules, monitoring jobs, dataset profiles, anomalies, and remediation workflows.
+- [Collibra GraphQL API](https://apis.io/graphqls/collibra/collibra-graphql/)
 
-### Collibra Data Lineage API
-Column-level and table-level lineage across SQL warehouses, ETL pipelines, BI tools, and streaming systems.
+#### Security (2)
 
-### Collibra Workflow API
-BPMN-based governance workflows for stewardship automation.
+Authentication, trust centre, and vulnerability disclosure.
 
-### Collibra AI Command Center
-Unified control plane for governing enterprise AI systems with continuous monitoring.
+- [Collibra Domain Security](https://apis.io/security/collibra/collibra-domain-security/)
+- [Collibra Vulnerability Disclosure](https://apis.io/security/collibra/collibra-vulnerability-disclosure/)
 
-### Collibra Integration Connectors
-Library of source connectors for data warehouses, BI tools, and cloud platforms.
+## Where to find this API
 
-## Common
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- **Website:** https://www.collibra.com/
-- **Portal:** https://developer.collibra.com/
-- **Documentation:** https://www.collibra.com/documentation
+- [Website](https://www.collibra.com/)
+- [Documentation](https://www.collibra.com/documentation)
+- [Pricing](https://www.collibra.com/pricing)
+- [Blog](https://www.collibra.com/blog)
+- [GitHub](https://github.com/collibra)
 
-## Maintainers
+## API Evangelist rating
 
-- **FN:** Kin Lane
-- **Email:** kin@apievangelist.com
+**Kin Score 12.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/collibra/](https://apis.io/providers/collibra/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Collibra: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/collibra/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
